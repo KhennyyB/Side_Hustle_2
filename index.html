@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Humburger Menu</title>
+    <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css" integrity="sha256-46r060N2LrChLLb5zowXQ72/iKKNiw/lAmygmHExk/o=" crossorigin="anonymous" />
+</head>
+<body>
+
+<!------Navigation------>
+        <nav>
+            <div class="logo"><h1>CAPSTONE</h1></div>
+            <div class="openMenu"><i class="fa fa-bars"></i></div>
+            <ul class="mainMenu">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Register</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">About Us</a></li>
+                <div class="closeMenu"><i class="fa fa-times"></i></div>
+            </ul>
+        </nav>
+
+<!------Form------>
+	<div class="container">
+		<div class="display-pass">Successfully Submitted</div>
+		<h2>Registration Form</h2>
+		<form action="#" class="form">
+			<div class="form-item">
+				<label for="user">Name</label>
+				<input type="text" placeholder="Full Name" id="user">
+			</div>
+			<div class="form-item">
+				<label for="user">Username</label>
+				<input type="text" placeholder="username" id="user">
+				<span>hello</span>
+			</div>
+			<div class="form-item">
+				<label for="email">Email</label>
+				<input type="email" placeholder="email" id="email">
+				<span>hello</span>
+			</div>
+			<label for="gender">Gender</label>
+<input type="radio" name="gender" value="male"> Male
+<input type="radio" name="gender" value="female"> Female
+			<div class="form-item">
+				<label for="user">Phone Number</label>
+				<input type="text" placeholder="Phone No" id="number">
+			</div>
+			<div class="form-item">
+				<label for="pass">Password</label>
+				<input type="password" placeholder="Password" id="password">
+				<span>hello</span>
+			</div>
+			<div class="form-item">
+				<label for="pass">Confirm Password</label>
+				<input type="password" placeholder="Retype Password" id="password2">
+				<span>hello</span>
+			</div>
+			<button>Submit</button>
+		</form>
+	</div>
+    <script src="./app.js"></script>
+</body>
+</html>
